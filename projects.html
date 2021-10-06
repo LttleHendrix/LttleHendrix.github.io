@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Zack Schuster</title>
+	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+
+
+    <!-- main content within a `grid-container` -->
+    <div class="grid-container">
+        <!-- `grid-x` represents a row -->
+        <div class="mainMenu grid-x grid-padding-x" style="margin: auto;">
+            <div class="menuLink cell small-3 large-3"><a href="index.html">Home</a></div>
+            <div class="menuLink cell small-3 large-3"><a href="projects.html">Projects</a></div>
+            <div class="menuLink cell small-3 large-3"><a href="resume.html">Resume</a></div>
+            <div class="menuLink cell small-3 large-3"><a href="funstuff.html">Fun Stuff</a></div>
+    </div>
+        <div class="grid-x grid-padding-x">
+            <h1 class="cell small-12 large-4">Projects</h1>
+            <img id="homeImage" class="cell small-12 large-8" src="/images/bugs.jpg" alt="Programming Meme">
+        </div>
+        <div class="grid-x grid-padding-x projectCard">
+
+            <p class="cell small-10 large-7">
+                A project that I have been working on in my free time is a chess AI. There are still some bugs in the current version 
+                and in the future I will do a complete rewrite, but in its current form it plays around a 700 level (as long as it doesn't 
+                crash). The program is written in Java as it is the language I have the most experience in. The hardest part about 
+                designing a chess computer is the time complexity of the algorithms used to select the next move, optimizing algorithms 
+                to look far enough into the future in a fast enough time is a challenge.
+            </p>
+            <img class="cell small-3 large-4" src="/images/chessimage.PNG" alt="Chess Computer" style="margin: 1rem;">
+        </div>
+        <div class="grid-x grid-padding-x projectCard">
+            <p class="cell small-10 large-7">
+                To be able to work on my chess bot I had to first learn how artificial intelligence worked. I did this in the artificial 
+                intelligence class that I took in in Spring of 2021. Here is a project we did in that class in which there was a 
+                maze and only one tile away is visible. The AI is able to move around with some level of intelligence and find the pizza.
+                This sort of intelligent thinking was the baseline for my chess project and all that will follow
+            </p>
+            <img class="cell small-3 large-4" src="/images/PizzaFinder.PNG" alt="Chess Computer" style="margin: 1rem;">
+        </div>
+        <div class="grid-x grid-padding-x projectCard">
+
+            <p class="cell small-10 large-7">
+                A project that I have been working on in my free time is a chess AI. There are still some bugs in the current version 
+                and in the future I will do a complete rewrite, but in its current form it plays around a 700 level (as long as it doesn't 
+                crash). The program is written in Java as it is the language I have the most experience in. The hardest part about 
+                designing a chess computer is the time complexity of the algorithms used to select the next move, optimizing algorithms 
+                to look far enough into the future in a fast enough time is a challenge.
+            </p>
+            <img class="cell small-3 large-4" src="/images/chessimage.PNG" alt="Chess Computer" style="margin: 1rem;">
+        </div>
+    </div>
+    <!-- include before closing </body> -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/vendor.js"></script>
+<script src="js/foundation.js"></script>
+<script type="application/javascript">
+    $(document).foundation();
+</script>
+</body>
+</html>
