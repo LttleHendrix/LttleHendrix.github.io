@@ -38,7 +38,7 @@ p {
 #homeImage {
     max-height: 40%;
     max-width: 40%;
-    border: 3px;
+    border: 0px;
     border-color: black;
     border-style: solid;
 }
